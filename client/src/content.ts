@@ -13,7 +13,7 @@ export type Artwork = {
 export const birthdayContent = {
   name: "[HER_NAME]",
   personalMessage: "[PERSONAL_MESSAGE]",
-  personalPhoto: "/images/personal-photo.jpg",
+  personalPhoto: "/images/personal-photo.jpeg",
   musicSrc: "",
   artwork: Array.from({ length: 29 }, (_, index): Artwork => {
     const number = index + 1;
